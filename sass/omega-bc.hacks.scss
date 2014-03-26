@@ -11,3 +11,16 @@
     }
   }
 }
+.desktop li {display: inline-block;}
+.desktop {
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: black;
+}
+
+/* temp */
+#block-search-form {display: none}
+#block-system-user-menu {display: none}
+.follow-menu {display: none;}

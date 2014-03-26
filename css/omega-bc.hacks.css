@@ -1,10 +1,33 @@
 @media all and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\000033}}
   #toolbar, #admin-menu {
-    display: none;
-  }
+    display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\000038}}
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
-}
+    margin-top: 0 !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000314}}
+.desktop li {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000315}}
+.desktop {
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: black; }
+
+/* temp */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000324}}
+#block-search-form {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000325}}
+#block-system-user-menu {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000326}}
+.follow-menu {
+  display: none; }
