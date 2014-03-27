@@ -12,15 +12,25 @@
   }
 }
 .desktop li {display: inline-block;}
-.desktop {
+/* .desktop {
   float: right;
   position: absolute;
   right: 10px;
   top: 10px;
   background-color: black;
-}
+} */
+
+.clearfix.platform li {display: inline-block;}
+
+something is adding extra /ul so it closes the li early and won't inline them
+
+
 
 /* temp */
 #block-search-form {display: none}
 #block-system-user-menu {display: none}
 .follow-menu {display: none;}
+
+/* compass normalize box padding etc needs to be overwritten for follow */
+menu, ol, ul {padding: 0 0 0 0}
+dl, menu, ol, ul {margin: 0}
