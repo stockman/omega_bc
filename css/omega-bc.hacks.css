@@ -22,10 +22,7 @@
 .clearfix.platform li {
   display: inline-block; }
 
-/* something is adding extra /ul so it closes the li early and won't inline them *?
-
-
-
+/* something is adding extra /ul so it closes the li early and won't inline them */
 /* temp */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000330}}
 #block-search-form {
