@@ -11,7 +11,7 @@
     }
   }
 }
-.desktop li {display: inline-block;}
+.desktop li,.desktop li a  {display: inline-block;}
 /* .desktop {
   float: right;
   position: absolute;
@@ -20,7 +20,19 @@
   background-color: black;
 } */
 
-.clearfix.platform li {display: inline-block;}
+.clearfix.platform li {display: inline-block;
+
+}
+/* .clearfix.platform {
+  position: absolute;
+  right: 0;
+  top: 0;
+} */
+
+
+.l-branding .wrapper.clearfix {
+
+}
 
 /* something is adding extra /ul so it closes the li early and won't inline them */
 
