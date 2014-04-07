@@ -1,16 +1,67 @@
 // Hide the toolbar or admin menu on small screens.
+
 @media all and (max-width: 800px) {
+  //do I need to do this?
   #toolbar, #admin-menu {
     display: none;
+
+  }
+  // this overwrites the weird padding
+  // I think this is due to the admin toolbar etc
+  // you will need to remove this/the !important
+  body , body.toolbar-drawer, body.toolbar {
+  padding-top: 0 !important;
   }
 
-  html {
-    body.toolbar, body.admin-menu {
-      padding-top: 0 !important;
-      margin-top: 0 !important;
-    }
+}
+
+//RT hides nav menu from big screen
+
+@media all and (min-width: 800px) {
+  #block-system-main-menu {
+    display: none;
   }
 }
+
+//Rt hides menu from small screen to allow responsive menu
+
+
+@media all and (max-width: 800px) {
+  #block-superfish-1 {
+    display: none;
+  }
+    .site-logo > img {
+   max-height: 45px;
+  }
+//why is the below here?
+
+}
+
+//RT responsive menu and logo
+
+.l-header div, .l-header a{
+  display: inline-block;
+}
+
+// responsive menu css hacks
+// http://bc.localhost:8082/sites/all/libraries/ResponsiveMultiLevelMenu/css/component.css
+.dl-menuwrapper {
+  position:inherit;
+
+}
+
+.dl-menuwrapper:first-child {margin-right: 0}
+
+
+
+
+
+
+
+
+
+
+
 .desktop li,.desktop li a  {display: inline-block;}
 /* .desktop {
   float: right;
