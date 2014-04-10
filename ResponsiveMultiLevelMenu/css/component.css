@@ -981,7 +981,7 @@ All this is done for any sub-level being entered.
 
 /* Demo 2 */
 .demo-2 .dl-menuwrapper button {
-	background: #e86814;
+	background: green;
 }
 
 .demo-2 .dl-menuwrapper button:hover,
