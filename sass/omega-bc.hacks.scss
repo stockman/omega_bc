@@ -1,0 +1,8 @@
+@import "compass/layout/grid-background";
+
+
+body{
+    @include grid-background;
+}
+
+
