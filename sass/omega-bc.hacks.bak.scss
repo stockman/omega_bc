@@ -1,5 +1,6 @@
 // Hide the toolbar or admin menu on small screens.
 
+/* saving this in case I need it later
 @media all and (max-width: 800px) {
   //do I need to do this?
   #toolbar, #admin-menu {
@@ -75,6 +76,8 @@
   background-color: black;
 } */
 
+/* 
+
 .clearfix.platform li {display: inline-block;
 
 }
@@ -84,7 +87,7 @@
   top: 0;
 } */
 
-
+/* 
 .l-branding .wrapper.clearfix {
 
 }
@@ -94,10 +97,13 @@
 
 
 /* temp */
+/* 
 #block-search-form {display: none}
 #block-system-user-menu {display: none}
 .follow-menu {display: none;}
 
 /* compass normalize box padding etc needs to be overwritten for follow */
+/* 
 menu, ol, ul {padding: 0 0 0 0}
 dl, menu, ol, ul {margin: 0}
+*/
