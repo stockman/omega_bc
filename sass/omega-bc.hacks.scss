@@ -4,5 +4,29 @@
 body{
     @include grid-background;
 }
+// for the social media follow
+.desktop li {
+	display: inline-block;
+}
 
+.l-region div {
+	display: inline-block;
+}
+	@media screen and (max-width: 768px) {
+		#menuer {
+			width:1.4em;
+			display: block;
+			background:#ddd;
+			font-size:1.75em;
+			text-align: center;
+		}
+		.user-login-form.js {
+			display: none;
+		}
+	}
 
+	@media screen and (min-width: 768px) {
+		#menuer {
+			display: none;
+		}
+	}

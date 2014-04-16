@@ -9,3 +9,28 @@ body {
   -webkit-background-size: 100% 1.5em, auto;
   background-size: 100% 1.5em, auto;
   background-position: left top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\000038}}
+.desktop li {
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000312}}
+.l-region div {
+  display: inline-block; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000316}}
+  #menuer {
+    width: 1.4em;
+    display: block;
+    background: #ddd;
+    font-size: 1.75em;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000323}}
+  .user-login-form.js {
+    display: none; } }
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/omega-bc\.hacks\.scss}line{font-family:\0000329}}
+  #menuer {
+    display: none; } }
