@@ -1,5 +1,5 @@
 @import "compass/layout/grid-background";
-
+$menucol : #008000;
 
 body{
     @include grid-background;
@@ -9,24 +9,38 @@ body{
 	display: inline-block;
 }
 
-.l-region div {
+//temp
+.l-header.img {height: 45px}
+
+/*.l-region div {
 	display: inline-block;
-}
-	@media screen and (max-width: 768px) {
-		#menuer {
+}*/
+	@media screen and (max-width: 1768px) {
+		#pmenu, #imenu {
 			width:1.4em;
 			display: block;
 			background:#ddd;
 			font-size:1.75em;
 			text-align: center;
+			background-color: $menucol;
+			color: #FFFFFF;
 		}
-		.user-login-form.js {
+		.block--user-login.js,.block--menu-menu-about.js {
 			display: none;
 		}
 	}
 
-	@media screen and (min-width: 768px) {
-		#menuer {
+	@media screen and (min-width: 1768px) {
+		#pmenu, #imenu {
 			display: none;
 		}
 	}
+
+//	follow
+.desktopview li {
+	display: inline-block;
+}
+
+.l-region--header div {
+	display: inline-block;
+}
