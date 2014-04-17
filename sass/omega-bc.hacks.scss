@@ -1,5 +1,8 @@
+@import "breakpoint";
 @import "compass/layout/grid-background";
 $menucol : #008000;
+// follow breakpoint
+$hidefollow: max-width 1000px;
 
 body{
     @include grid-background;
@@ -10,27 +13,65 @@ body{
 }
 
 //temp
-.l-header.img {height: 45px}
+.l-branding {
+  display: table;
+}
+.site-logo > img {
+  height: 2.85em;
+  margin-left: .3em;
+}
+// follow
+.socialmenu {
+	@include breakpoint ($hidefollow){
+	display: none;
+	}
+}
+// override normalize lists.scss
+.social, .social ul {
+	padding: 0;
+	margin:0;
+	height: 45px; //what are the ems?
+}
+// end follow
+
+.dl-menuwrapper:first-child {
+  margin-right: 0;
+}
+.dl-menuwrapper {
+  float: left;
+  max-width: 300px;
+  position: inherit;
+  width:auto;
+}
+
+/*.dl-menuwrapper {
+  float: left;
+  max-width: 300px;
+  perspective: 1000px;
+  perspective-origin: 50% 200%;
+  position: relative;
+  width: auto;
+}*/
 
 /*.l-region div {
 	display: inline-block;
 }*/
-	@media screen and (max-width: 1768px) {
+	@media screen and (max-width: 1920px) {
 		#pmenu, #imenu {
-			width:1.4em;
+			//width:1.4em;
 			display: block;
 			background:#ddd;
-			font-size:1.75em;
+			//font-size:1.75em;
 			text-align: center;
 			background-color: $menucol;
 			color: #FFFFFF;
 		}
-		.block--user-login.js,.block--menu-menu-about.js {
+		.profiler.js,.abouter.js {
 			display: none;
 		}
 	}
 
-	@media screen and (min-width: 1768px) {
+	@media screen and (min-width: 1920px) {
 		#pmenu, #imenu {
 			display: none;
 		}
@@ -42,5 +83,9 @@ body{
 }
 
 .l-region--header div {
+	display: inline-block;
+}
+
+.panels-flexible-region-1-socman-inside div {
 	display: inline-block;
 }
