@@ -5,11 +5,11 @@ $menucol : #008000;
 
 
 // hide at coffee houses
-/*
+
 .site-logo > img, #logo, .socialmenu {
   display: none;
 }
-*/
+
 
 $hidefollow: max-width 1000px;
 
@@ -58,7 +58,7 @@ body{
   float: left;
   max-width: 300px;
   position: inherit;
-  width:auto;
+//  width:auto;
 }
 
 /*.dl-menuwrapper {
