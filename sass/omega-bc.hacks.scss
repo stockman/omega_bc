@@ -119,16 +119,47 @@
 /* Header
 ----------------------------------------- */
 
+.hedrow {background-color: pink;}
+.panels-flexible-row {padding: 0}
+.logot {max-width: 351px;
+	min-width: 351px;
+
+}
+#logo > img {
+	//set base logo height
+  height: 45px;
+  width: 351px;
+}
+.panels-flexible-region-1-respmenu {width: 48px}
+/*
+#top .logo {
+  background: url("http://cdn3.tnwcdn.com/plus/img/tnw-brandmark.svg") no-repeat scroll center center / 76px auto rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  font-weight: 700;
+  height: 0;
+  line-height: 46px;
+  margin-right: 16px;
+  overflow: hidden;
+  padding-top: 48px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 76px;
+}
+*/
+
 $menucol : #008000;
 // follow breakpoint
 
 
-// hide at coffee houses
+/* hide at coffee houses
 
 .site-logo > img, #logo, .socialmenu {
   display: none;
 }
-
+*/
 
 $hidefollow: max-width 1000px;
 
