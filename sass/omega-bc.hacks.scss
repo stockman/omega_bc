@@ -119,7 +119,8 @@
 /* Header
 ----------------------------------------- */
 
-.hedrow {background-color: pink;}
+.hedrow {background-color: pink;
+height: 45px}
 .panels-flexible-row {padding: 0}
 .logot {max-width: 351px;
 	min-width: 351px;
@@ -194,12 +195,14 @@ body{
 	}
 }
 // override normalize lists.scss
+
 .social, .social ul {
-	padding: 0;
-	margin:0;
-	height: 45px; //what are the ems?
+  list-style: none outside none;
+  padding: 0 2px;
 }
+
 // end follow
+
 
 .dl-menuwrapper:first-child {
   margin-right: 0;
