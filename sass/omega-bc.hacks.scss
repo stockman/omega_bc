@@ -121,6 +121,9 @@
 
 .hedrow {background-color: pink;
 height: 45px}
+.panel-flexible-inside.panels-flexible-1-inside {
+  height: 100px;
+}
 .panels-flexible-row {padding: 0}
 .logot {max-width: 351px;
 	min-width: 351px;
@@ -155,12 +158,14 @@ $menucol : #008000;
 // follow breakpoint
 
 
-/* hide at coffee houses
+/* hide at coffee houses */
 
-.site-logo > img, #logo, .socialmenu {
+// hide rmenu apr 25 until backu from desk
+.site-logo > img, #logo, .rmenu
+//, .socialmenu 
+{
   display: none;
 }
-*/
 
 $hidefollow: max-width 1000px;
 
