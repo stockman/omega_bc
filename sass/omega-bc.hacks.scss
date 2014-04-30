@@ -1,5 +1,19 @@
 @import "breakpoint";
 @import "compass/layout/grid-background";
+//hide at coffee houses
+$hid: 0;
+
+$lgwidth: 351px;
+//what is the smallest this should be made for?
+//do we need a breakpoint below 351?
+//breakpoints:
+$hidefollow: max-width 800px;
+$logo1st: max-width 500px;
+
+// Colours:
+$gren: #008000;
+$four: 45px;
+
 
 #top { background: #FFF; border-bottom: 2px solid #d9e0e2; font-size: 14px !important; line-height: 1.5em !important; height: 50px; position: relative; width: 100%; }
 #top .logo { float: left; font-size: 1.5em; font-weight: 700; text-transform: uppercase; color: #fff; line-height: 46px; margin-right: 16px; background: url('http://cdn3.tnwcdn.com/plus/img/tnw-brandmark.svg') no-repeat center; background-size: 76px; width: 76px; height: 0; overflow: hidden; padding-top: 48px; vertical-align: middle; display: block; }
@@ -116,32 +130,61 @@
 #auth-popup {display: none;}
 // override header width
 .l-header {max-width: 100%;}
+.breadcrumb {display: none}
 /* Header
 ----------------------------------------- */
 
-.hedrow {background-color: pink;
-height: 45px}
-.panel-flexible-inside.panels-flexible-1-inside {
-  height: 100px;
+
+//--------- Temp fixes-------------
+.site-logo > img, #logo {
+ @if $hid == 1 {display: none} 
+@else 
+ {display: block}
 }
-// Panels overwrites to fix default
+
+//^--------- Temp fixes-------------
+
+//----- OOTB----- hack fixes
+
+  // hide the header logo
+.l-branding > .site-logo > img {
+  display: none;
+}
+
+  // Panels overwrites to fix default
 .panels-flexible-1 .panels-flexible-row {
   padding: 0;
 }
-.fmenu, .pmenu, .umenu, .smenu, .amenu {
+.desktop, .rmenu, .fmenu, .pmenu, .umenu, .smenu, .amenu, {
   width: auto;
 }
-//^ Panels overwrites to fix default
-.logot {max-width: 351px;
-	min-width: 351px;
+
+  //^ Panels overwrites to fix default
+//^----- OOTB----- hack fixes
+.inside.panels-flexible-region-inside {
+  padding: 0;
+}
+.panel-flexible-inside.panels-flexible-1-inside {
+  height: 100px;
+}
+.desktop {float: right}
+.top {
+  background-color: $gren;
+  height: $four;
+}
+
+.logot {max-width: $lgwidth;
+	min-width: $lgwidth;
 
 }
 #logo > img {
 	//set base logo height
   height: 45px;
-  width: 351px;
+  width: $lgwidth;
 }
 .panels-flexible-region-1-respmenu {width: 48px}
+
+
 /*
 #top .logo {
   background: url("http://cdn3.tnwcdn.com/plus/img/tnw-brandmark.svg") no-repeat scroll center center / 76px auto rgba(0, 0, 0, 0);
@@ -165,17 +208,8 @@ $menucol : #008000;
 // follow breakpoint
 
 
-// hide rmenu apr 25 until backu from desk
-//, .socialmenu 
-/* hide at coffee houses
-.site-logo > img, #logo, .rmenu
 
-{
-  display: none;
-}
-*/
 
-$hidefollow: max-width 1000px;
 
 body{
     @include grid-background;
@@ -199,12 +233,7 @@ body{
   height: 2.85em;
   margin-left: .3em;
 }
-// follow
-.socialmenu {
-	@include breakpoint ($hidefollow){
-	display: none;
-	}
-}
+
 // override normalize lists.scss
 
 .social, .social ul {
@@ -275,3 +304,18 @@ body{
 .panels-flexible-region-1-socman-inside div {
 	display: inline-block;
 }
+//* ------ 1st real media query apr 30 -----
+
+.dl-menuwrapper {
+      @include breakpoint ($logo1st) {
+      position: absolute;
+      top: 55px;
+      }
+}
+// follow
+.socialmenu {
+  @include breakpoint ($hidefollow){
+  display: none;
+  }
+}
+
