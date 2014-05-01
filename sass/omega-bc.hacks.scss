@@ -7,7 +7,7 @@ $lgwidth: 351px;
 //what is the smallest this should be made for?
 //do we need a breakpoint below 351?
 //breakpoints:
-$hidefollow: max-width 800px;
+$hidefollow: max-width 1200px;
 $logo1st: max-width 500px;
 
 // Colours:
@@ -282,12 +282,6 @@ body{
 			vertical-align: bottom;
 		}
 		.profiler.js,.abouter.js {
-			display: none;
-		}
-	}
-
-	@media screen and (min-width: 1920px) {
-		#pmenu, #imenu {
 			display: none;
 		}
 	}
