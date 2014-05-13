@@ -13,7 +13,7 @@ $logo1st: max-width 500px;
 // Colours:
 $gren: #008000;
 $four: 45px;
-
+//test
 
 #top { background: #FFF; border-bottom: 2px solid #d9e0e2; font-size: 14px !important; line-height: 1.5em !important; height: 50px; position: relative; width: 100%; }
 #top .logo { float: left; font-size: 1.5em; font-weight: 700; text-transform: uppercase; color: #fff; line-height: 46px; margin-right: 16px; background: url('http://cdn3.tnwcdn.com/plus/img/tnw-brandmark.svg') no-repeat center; background-size: 76px; width: 76px; height: 0; overflow: hidden; padding-top: 48px; vertical-align: middle; display: block; }
@@ -131,6 +131,43 @@ $four: 45px;
 // override header width
 .l-header {max-width: 100%;}
 .breadcrumb {display: none}
+
+/* Blogposts
+----------------------------------------- */
+.list-item-header {
+  border-bottom: 1px solid #D2D2D2;
+  display: table;
+  min-height: 142px;
+  padding: 25px 0;
+  position: relative;
+  width: 100%;
+  background-color: pink;
+}
+
+
+.node--promoted h2
+{
+  font-size:20px;
+  line-height:25px;
+  font-weight:400;
+  margin:0
+}
+
+.node--promoted h2,.node--promoted h2 a
+{
+  color:#333
+}
+
+.node__submitted {
+  color:#999;
+  margin-top:6px;
+  margin-bottom:0
+}
+/*^ Blogposts
+----------------------------------------- */
+
+
+
 /* Header
 ----------------------------------------- */
 

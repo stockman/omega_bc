@@ -6,3 +6,36 @@
 
 // Use 'border-box' for the box model.
 @import "toolkit/border-box";
+
+
+/* ---- RT ---- 
+Can I borrow someones normalize so I don't have to build it?
+
+*/
+
+
+table td, table th {
+  border: 0 none;
+  color: #000000;
+  padding: 8px 10px;
+  vertical-align: middle;
+}
+
+table {
+  border: 1px solid #BEBFB9;
+  font-size: 0.923em;
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+//
+
+.l-content{
+ // background: none repeat scroll 0 0 #FFFFFF;
+// color: #333333;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 0 20px;
+  position: relative;
+}
+//
