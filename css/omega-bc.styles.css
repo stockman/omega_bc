@@ -100,7 +100,7 @@ a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
-  color: green; }
+  color: white; }
 
 /**
  * $HEADINGS
@@ -244,20 +244,26 @@ mark,
   -webkit-border-radius: 10px;
   border-radius: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_BC_menu\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\000032}}
 .l-branding > .site-logo > img {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_BC_menu\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\000036}}
+.sf-menu li:hover {
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-bottom-width: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\0000312}}
 .top {
   background-color: green; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_BC_menu\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\0000322}}
 .desktopview li {
   display: inline-block; }
 
 @media screen and (max-width: 1920px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_BC_menu\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\0000329}}
   #pmenu, #imenu {
     display: block;
     background: #ddd;
@@ -270,9 +276,25 @@ mark,
     font-size: 2em;
     vertical-align: bottom; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_BC_menu\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\0000343}}
   .profiler.js, .abouter.js {
     display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000032}}
+.views-row-even {
+  background-color: #9d9d9d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000035}}
+.views-row-odd {
+  background-color: #d8d8d8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000038}}
+.node--blog-content {
+  margin: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\0000311}}
+.node__title {
+  padding-top: 15px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\000031}}
 .sf-navbar {
   position: relative; }

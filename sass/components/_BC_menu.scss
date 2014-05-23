@@ -2,7 +2,12 @@
 .l-branding > .site-logo > img {
   display: none;
 }
-
+// underline menu items on hover
+.sf-menu li:hover {
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
 
 .top {
   background-color: $gren;
