@@ -8,6 +8,13 @@
   display: none;
 }
 
+//pasted in colours but will move later
+$backgroundcolour: #008000;
+$h_colour    : #00267F;
+$link_colour  : #80CC28;
+
+
+
 //may 27th header
 
 .panel-pane.pane-block.pane-block-19 {
@@ -27,9 +34,16 @@ left : 50%;
 }
 .sf-menu ul li {
 left : 0%;
+background-color: $backgroundcolour;
+top: -1.2em;
 }
 .sf-menu li {
 left : -50%;
+padding: .2rem;
+}
+
+.sf-menu li:hover {
+  background-color:$backgroundcolour;
 }
 
 //Social Icons
@@ -71,8 +85,6 @@ left : -50%;
 }
 
 
-$backgroundcolour: #008000;
-$h_colour    : #00267F;
 
 @mixin socialcircle {
   // font size controls the actual size

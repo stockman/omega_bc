@@ -17,7 +17,7 @@ html {
  * $LINKS
  */
 a {
-  @include link-colors($link_colour, #000, $link-v_colour, $link_colour, #000);
+  @include link-colors($h_colour, #000, $link-v_colour, $link_colour, #000);
 }
 //rt added
 a:hover {

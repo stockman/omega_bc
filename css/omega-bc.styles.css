@@ -84,7 +84,7 @@ html {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
 a {
-  color: #80cc28; }
+  color: #00267f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
   a:visited {
     color: #80cc28; }
@@ -96,7 +96,7 @@ a {
     color: black; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
   a:active {
-    color: white; }
+    color: #6a7076; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
