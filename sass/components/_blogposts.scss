@@ -1,10 +1,6 @@
+.views-row-odd { background-color:lighten($posteven, 20%);}
+.views-row-even { background-color:$posteven;}
 
-.views-row-even {
-	background-color:$posteven;
-}
-.views-row-odd {
-	background-color:$postodd;
-}
 .node--blog-content {
 	margin: 10px;
 }

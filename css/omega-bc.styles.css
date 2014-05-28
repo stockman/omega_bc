@@ -279,19 +279,19 @@ mark,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\0000343}}
   .profiler.js, .abouter.js {
     display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000031}}
+.views-row-odd {
+  background-color: #d0d0d0; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000032}}
 .views-row-even {
   background-color: #9d9d9d; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000035}}
-.views-row-odd {
-  background-color: #d8d8d8; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000034}}
 .node--blog-content {
   margin: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_blogposts\.scss}line{font-family:\000037}}
 .node__title {
   padding-top: 15px; }
 

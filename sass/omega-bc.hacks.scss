@@ -12,8 +12,8 @@
 $backgroundcolour: #008000;
 $h_colour    : #00267F;
 $link_colour  : #80CC28;
-
-
+$light-grey : #ddd;
+$a_hover_colour:#FFFFFF;
 
 //may 27th header
 
@@ -26,24 +26,37 @@ $link_colour  : #80CC28;
   margin-left: auto;
   margin-right: auto;
 }
+// panel spacing: 
+.panel-pane {padding: .25rem}
 
 .sf-menu {
 float : left;
 position : relative;
 left : 50%;
+text-decoration: none;
 }
+.sf-menu a {text-decoration: none}
 .sf-menu ul li {
 left : 0%;
-background-color: $backgroundcolour;
+background-color: $h_colour;
 top: -1.2em;
+
 }
+.sf-menu ul li a{
+ color: $light-grey;
+}
+.sf-menu ul li a:hover{
+color: $a_hover_colour
+}
+
 .sf-menu li {
 left : -50%;
 padding: .2rem;
 }
 
 .sf-menu li:hover {
-  background-color:$backgroundcolour;
+  background-color:$h_colour;
+
 }
 
 //Social Icons
