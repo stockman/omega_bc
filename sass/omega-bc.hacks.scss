@@ -3,6 +3,35 @@
 //hack to hide breadcrumbs
 .breadcrumb {display: none}
 
+//hack to hide the "home word"
+.l-content h1 {
+  display: none;
+}
+
+//may 27th header
+
+.panel-pane.pane-block.pane-block-19 {
+  text-align: right;
+}
+
+.panel-pane.pane-page-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sf-menu {
+float : left;
+position : relative;
+left : 50%;
+}
+.sf-menu ul li {
+left : 0%;
+}
+.sf-menu li {
+left : -50%;
+}
+
 //Social Icons
 @font-face {
     font-family: 'socicon';
@@ -20,6 +49,22 @@
 }
 */
 
+// menu items
+#superfish-1 {
+ // display: block;
+  margin-right: 2em;
+  font-size: 20px;
+  //asd
+}
+
+/*
+#superfish-1  a{
+  margin-right: .5em;
+  text-decoration: none;
+  //asd
+}
+*/
+
 // align
 .pane-block-19 {
   text-align: center;
@@ -28,66 +73,40 @@
 
 $backgroundcolour: #008000;
 $h_colour    : #00267F;
+
 @mixin socialcircle {
+  // font size controls the actual size
+  font-size: 2rem;
+  // $socisize is the circle size
+  $socisize: .8em;
   font-family: 'socicon';
   display: inline-block;
     position: relative;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: $socisize*2;
+    height: $socisize*2;
     box-shadow: 0 2px 2px #999;
     padding: 0px;
     text-decoration: none;
     text-align: center;
     color: $backgroundcolour;
-    font-size: 25px;
+
     font-weight: normal;
-    line-height: 2em;
-    border-radius: 25px;
-    -moz-border-radius:25px;
-    -webkit-border-radius:25px;
+    line-height: $socisize*2;
+    border-radius: $socisize;
+    -moz-border-radius:$socisize;
+    -webkit-border-radius:$socisize;
     background-color: #fff;
 
 }
 .socicon:hover {color: $h_colour}
 .socicon {
 	@include socialcircle;
-
-	/*
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'socicon';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  font-size: 40px;
-  -webkit-font-smoothing: antialiased;
-  background-color: pink;
-  margin-right:30px;
-	width:64px;
-	height:64px;
-	display:inline-block;
-	position:relative;
-	line-height:64px;
-	background-color:#eaeaea;
-	background-image:-webkit-gradient(linear,left top,left bottom,from(#f6f6f6),to(#eaeaea));
-	background-image:-webkit-linear-gradient(top,#f6f6f6,#eaeaea);
-	background-image:-moz-linear-gradient(top,#f6f6f6,#eaeaea);
-	background-image:-ms-linear-gradient(top,#f6f6f6,#eaeaea);
-	background-image:-o-linear-gradient(top,#f6f6f6,#eaeaea);
-	background-image:linear-gradient(top,#f6f6f6,#eaeaea);
-	-moz-border-radius:32px;
-	-webkit-border-radius:32px;
-	border-radius:32px;
-	-moz-box-shadow:0 1px 1px rgba(0,0,0,.25),0 2px 3px rgba(0,0,0,.1);
-	-webkit-box-shadow:0 1px 1px rgba(0,0,0,.25),0 2px 3px rgba(0,0,0,.1);
-	box-shadow:0 1px 1px rgba(0,0,0,.25),0 2px 3px rgba(0,0,0,.1);
-*/
 }
-.socicon:empty{
+/*.socicon:empty{
     width: 1em;
 }
+*/
 
 .socicon-easid:before { content: "5"; }
 .socicon-twitter:before { content: "a"; }
