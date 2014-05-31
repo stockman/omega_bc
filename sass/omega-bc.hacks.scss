@@ -1,12 +1,6 @@
+@import "sassy-buttons";
 //show grid
 @import "compass/layout/grid-background";
-//hack to hide breadcrumbs
-.breadcrumb {display: none}
-
-//hack to hide the "home word"
-.l-content h1 {
-  display: none;
-}
 
 //pasted in colours but will move later
 $backgroundcolour: #008000;
@@ -15,6 +9,35 @@ $link_colour  : #80CC28;
 $light-grey : #ddd;
 $a_hover_colour:#FFFFFF;
 
+
+//hack to hide breadcrumbs
+.breadcrumb {display: none}
+
+//hack to hide the "home word"
+.l-content h1 {
+  display: none;
+}
+
+.btn{
+@include sassy-button("flat", 10px, 19px, $backgroundcolour);
+vertical-align: super;
+}
+
+.btn:hover{
+@include sassy-button("flat", 10px, 19px, $h_colour);
+}
+//default login - need to hide form or something
+#edit-submit {
+@include sassy-button("flat", 10px, 19px, $backgroundcolour);
+vertical-align: super;
+
+}
+
+//my account - use the sassy button drop down.
+.pane-system-user-menu {
+@include sassy-button("flat", 10px, 19px, $backgroundcolour);
+vertical-align: super;
+}
 //may 27th header
 
 .panel-pane.pane-block.pane-block-19 {
@@ -26,7 +49,7 @@ $a_hover_colour:#FFFFFF;
   margin-left: auto;
   margin-right: auto;
 }
-// panel spacing: 
+// panel spacing: d
 .panel-pane {padding: .25rem}
 
 .sf-menu {
@@ -58,6 +81,7 @@ padding: .2rem;
   background-color:$h_colour;
 
 }
+.sf-menu li:hover a {color: $a_hover_colour;}
 
 //Social Icons
 @font-face {

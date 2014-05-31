@@ -4,8 +4,8 @@
 select:focus,
 input:focus,
 textarea:focus {
-  -moz-box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
   -webkit-box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
+  -moz-box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
   box-shadow: 0 0 4px 1px rgba(165, 224, 97, 0.3);
   outline: 1px solid #a5e061; }
 
@@ -42,7 +42,7 @@ th {
   padding: 0.5em 1em;
   background-color: #00267f;
   color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_tables\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_tables\.scss}line{font-family:\0000315}}
   th a,
   th a.active {
     color: #fff; }
@@ -66,9 +66,13 @@ tr.even {
 /**
  * $FONT-FACE
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_bc\/gems\/compass-0\.12\.3\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+* html {
+  font-size: 87.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_bc\/gems\/compass-0\.12\.3\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
 html {
-  font-size: 87.5%;
+  font-size: 14px;
   line-height: 1.42857em; }
 
 /**
@@ -85,16 +89,16 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
 a {
   color: #00267f; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_bc\/gems\/compass-0\.12\.3\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
   a:visited {
     color: #80cc28; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_bc\/gems\/compass-0\.12\.3\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
   a:focus {
     color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_bc\/gems\/compass-0\.12\.3\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
   a:hover {
     color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-core-1\.0\.0\.alpha\.17\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/\.rvm\/gems\/ruby-1\.9\.3-p545\@omega\.omega_bc\/gems\/compass-0\.12\.3\/frameworks\/compass\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
   a:active {
     color: #6a7076; }
 
@@ -105,7 +109,7 @@ a:hover {
 /**
  * $HEADINGS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000334}}
 h1, .alpha,
 h2, .beta,
 h3, .gamma,
@@ -119,7 +123,7 @@ h6, .zeta {
   color: #464a4e;
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000341}}
   h1 a,
   h1 a:visited, .alpha a,
   .alpha a:visited,
@@ -188,7 +192,7 @@ h6, .zeta {
 /**
  * $PARAGRAPHS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\0000378}}
 p,
 blockquote {
   margin: 0;
@@ -212,11 +216,11 @@ blockquote {
   padding-bottom: 1.42857em;
   margin-bottom: 1.42857em;
   padding: 0 1.5em;
-  border-width: 0.07143em;
   border-style: solid;
+  border-width: 0.07143em;
   padding: 1.35714em;
-  border-left-width: 0.71429em;
   border-left-style: solid;
+  border-left-width: 0.71429em;
   padding-left: 0.71429em;
   font-style: italic;
   color: #18599b; }
@@ -231,7 +235,7 @@ q {
 /**
  * $MARKS
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/base\/_typography\.scss}line{font-family:\00003113}}
 mark,
 .marker {
   padding: 0.1em 0.5em;
@@ -240,8 +244,10 @@ mark,
   font-size: 12px;
   font-size: 0.85714rem;
   text-transform: capitalize;
-  -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/_bc_menu\.scss}line{font-family:\000032}}
@@ -307,7 +313,7 @@ mark,
 .sf-navbar li li {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000311}}
 .sf-navbar li ul,
 .sf-navbar li li li {
   width: 100%; }
@@ -317,14 +323,14 @@ mark,
   width: auto;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000320}}
 .sf-navbar li li:hover > ul,
 .sf-navbar li li.sfHover > ul,
 .sf-navbar > li.active-trail > ul {
   left: 0;
   top: 2.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000325}}
 .sf-navbar li li li:hover > ul,
 .sf-navbar li li li.sfHover > ul {
   left: 12em;
@@ -338,7 +344,7 @@ mark,
 .sf-navbar ul a > .sf-sub-indicator {
   background-position: 0 -100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000339}}
 .sf-navbar ul a:focus > .sf-sub-indicator,
 .sf-navbar ul a:hover > .sf-sub-indicator,
 .sf-navbar ul a:active > .sf-sub-indicator,
@@ -354,7 +360,7 @@ mark,
 .sf-navbar ul ul a > .sf-sub-indicator {
   background-position: 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tandoori\/Sites\/Drupal\%207\%20Development\/sites\/all\/themes\/omega_bc\/sass\/components\/superfish2\.scss}line{font-family:\0000352}}
 .sf-navbar ul ul a:focus > .sf-sub-indicator,
 .sf-navbar ul ul a:hover > .sf-sub-indicator,
 .sf-navbar ul ul a:active > .sf-sub-indicator,
