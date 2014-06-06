@@ -2,12 +2,25 @@
 //show grid
 @import "compass/layout/grid-background";
 
+/* RT testing this now.
+http://colorschemedesigner.com/#2J52gukNuw0w0
+see scheme id for url
+analogic is this good? then a grey
+
+Colors june 6th */
+$headerbackground:  #1A80D9;
+$a_hover_colour:#FFFF0D;
+$h_block_colour: grey;
+$h_social_colour:#00267F; //old all hover colour
+
+
 //pasted in colours but will move later
 $backgroundcolour: #008000;
-$h_colour    : #00267F;
+// RT $h_colour    : #00267F;
+$h_colour    : grey;
 $link_colour  : #80CC28;
 $light-grey : #ddd;
-$a_hover_colour:#FFFFFF;
+//RT $a_hover_colour:#FFFFFF;
 
 
 //hack to hide breadcrumbs
@@ -18,42 +31,37 @@ $a_hover_colour:#FFFFFF;
   display: none;
 }
 
-.btn{
-@include sassy-button("flat", 10px, 19px, $backgroundcolour);
-vertical-align: super;
+//Logo Smaller
+#logo > img {
+  width: 25rem;
+}
+// make all the header item containers the size of their contents
+.headerrow, .header, .header div {display: inline-block;
+  width: auto;
+}
+//center the headerrow
+//RT this not working because it is taking the parent stuff for some reason
+.headerrow {
+  width: 100%;
+  background-color: $headerbackground;
 }
 
-.btn:hover{
-@include sassy-button("flat", 10px, 19px, $h_colour);
+.header {
+  display: table;
+  margin: 0 auto;
+  float: none;
+  border-bottom: 1px $a_hover_colour solid;
 }
-//default login - need to hide form or something
-#edit-submit {
-@include sassy-button("flat", 10px, 19px, $backgroundcolour);
-vertical-align: super;
+.header .inside {padding-bottom: 1rem;}
+//#1A80D9
+//#1A6DD9
 
-}
-
-//my account - use the sassy button drop down.
-.pane-system-user-menu {
-@include sassy-button("flat", 10px, 19px, $backgroundcolour);
-vertical-align: super;
-}
-//may 27th header
-
-.panel-pane.pane-block.pane-block-19 {
-  text-align: right;
-}
-
-.panel-pane.pane-page-logo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-// panel spacing: d
-.panel-pane {padding: .25rem}
+// superfish and follow align bottom
+.superfisher, .follow {vertical-align: bottom;}
 
 .sf-menu {
 float : left;
+///******RT june 5th this is breaking social menus!
 position : relative;
 left : 50%;
 text-decoration: none;
@@ -62,7 +70,7 @@ text-decoration: none;
 .sf-menu ul li {
 left : 0%;
 background-color: $h_colour;
-top: -1.2em;
+top: -.2em;
 
 }
 .sf-menu ul li a{
@@ -72,16 +80,36 @@ top: -1.2em;
 color: $a_hover_colour
 }
 
+//spacing between sf words
 .sf-menu li {
 left : -50%;
 padding: .2rem;
 }
 
 .sf-menu li:hover {
-  background-color:$h_colour;
+//  background-color:$h_colour;
 
 }
 .sf-menu li:hover a {color: $a_hover_colour;}
+
+
+// menu items
+#superfish-1 {
+ // display: block;
+  margin-right: 2em;
+  font-size: 20px;
+  //asd
+}
+
+
+
+
+
+
+
+
+
+
 
 //Social Icons
 @font-face {
@@ -94,38 +122,9 @@ padding: .2rem;
     font-weight: normal;
     font-style: normal;
 }
-
-/*.socicon {
-    font-family: 'socicon' !important;
-}
-*/
-
-// menu items
-#superfish-1 {
- // display: block;
-  margin-right: 2em;
-  font-size: 20px;
-  //asd
-}
-
-/*
-#superfish-1  a{
-  margin-right: .5em;
-  text-decoration: none;
-  //asd
-}
-*/
-
-// align
-.pane-block-19 {
-  text-align: center;
-}
-
-
-
 @mixin socialcircle {
   // font size controls the actual size
-  font-size: 2rem;
+  font-size: 1.3rem;
   // $socisize is the circle size
   $socisize: .8em;
   font-family: 'socicon';
@@ -148,14 +147,10 @@ padding: .2rem;
     background-color: #fff;
 
 }
-.socicon:hover {color: $h_colour}
+.socicon:hover {color: $h_social_colour;}
 .socicon {
-	@include socialcircle;
+  @include socialcircle;
 }
-/*.socicon:empty{
-    width: 1em;
-}
-*/
 
 .socicon-easid:before { content: "5"; }
 .socicon-twitter:before { content: "a"; }

@@ -17,6 +17,7 @@ stylesheets[all][] = css/omega-bc.no-query.css
 ; Scripts
 ; ========================================
 scripts[] = js/omega-bc.behaviors.js
+scripts[] = js/Rand.js
 
 ; ========================================
 ; Regions
