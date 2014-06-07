@@ -56,6 +56,25 @@ $light-grey : #ddd;
 //#1A80D9
 //#1A6DD9
 
+//usermenu
+
+.user-login-form div {
+  display: inline;
+}
+
+.user-login-form div ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.user-login-form {
+  background-color:white;
+  padding: 1rem;
+}
+
 // superfish and follow align bottom
 .superfisher, .follow {vertical-align: bottom;}
 
