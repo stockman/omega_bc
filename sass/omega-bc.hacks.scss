@@ -12,6 +12,7 @@ $headerbackground:  #1A80D9;
 $a_hover_colour:#FFFF0D;
 $h_block_colour: grey;
 $h_social_colour:#00267F; //old all hover colour
+$icon_back_colour: #FFFFFF;
 
 
 //pasted in colours but will move later
@@ -56,12 +57,89 @@ $light-grey : #ddd;
 //#1A80D9
 //#1A6DD9
 
+
 //usermenu
+.btn{
+$sb-text-color:$backgroundcolour; //variable from _sassybuttons.scss partials
+$sb-padding: 0.42rem 1rem;
+@include sassy-button("flat", 10px, 1.2rem, $icon_back_colour);
+vertical-align: super;
+}
+
+.btn:hover{
+  color:$h_social_colour;
+  background-color: $icon_back_colour;
+}
+.btn:active{
+  background-color: darken($icon_back_colour,5%);
+}
+
 
 .user-login-form div {
   display: inline;
 }
-
+/*
+.user-login-form, .pane-usermenu {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color-ltr-source: physical;
+  border-left-color-rtl-source: physical;
+  border-left-color-value: rgba(0, 0, 0, 0.2);
+  border-left-style-ltr-source: physical;
+  border-left-style-rtl-source: physical;
+  border-left-style-value: solid;
+  border-left-width-ltr-source: physical;
+  border-left-width-rtl-source: physical;
+  border-left-width-value: 1px;
+  border-right-color-ltr-source: physical;
+  border-right-color-rtl-source: physical;
+  border-right-color-value: rgba(0, 0, 0, 0.2);
+  border-right-style-ltr-source: physical;
+  border-right-style-rtl-source: physical;
+  border-right-style-value: solid;
+  border-right-width-ltr-source: physical;
+  border-right-width-rtl-source: physical;
+  border-right-width-value: 1px;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2px;
+  min-width: 160px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 5px;
+  position: absolute;
+  z-index: 1000;
+  top: 7rem;
+  display: none;
+}
+*/
+.pane-usermenu {
+  position: absolute;
+  z-index: 1000;
+  background-color:$icon_back_colour;
+  display: none;
+}
 .user-login-form div ul {
   list-style-image: none;
   list-style-position: outside;
@@ -163,7 +241,7 @@ padding: .2rem;
     border-radius: $socisize;
     -moz-border-radius:$socisize;
     -webkit-border-radius:$socisize;
-    background-color: #fff;
+    background-color: $icon_back_colour;
 
 }
 .socicon:hover {color: $h_social_colour;}
