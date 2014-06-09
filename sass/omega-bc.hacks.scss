@@ -1,33 +1,18 @@
 @import "sassy-buttons";
 //show grid
 @import "compass/layout/grid-background";
+@import "variables/**/*";
+// ^ I importerd the colors.scss so I don't have to do twice
 
 /* RT testing this now.
 http://colorschemedesigner.com/#2J52gukNuw0w0
 see scheme id for url
-analogic is this good? then a grey
-
-Colors june 6th */
-$headerbackground:  #1A80D9;
-$a_hover_colour:#FFFF0D;
-$h_block_colour: grey;
-$h_social_colour:#00267F; //old all hover colour
-$icon_back_colour: #FFFFFF;
-
-
-//pasted in colours but will move later
-$backgroundcolour: #008000;
-// RT $h_colour    : #00267F;
-$h_colour    : grey;
-$link_colour  : #80CC28;
-$light-grey : #ddd;
-//RT $a_hover_colour:#FFFFFF;
-
+analogic is this good? then a grey */
 
 //hack to hide breadcrumbs
 .breadcrumb {display: none}
 
-//hack to hide the "home word"
+//hack to hide the "home word"s
 .l-content h1 {
   display: none;
 }
@@ -64,17 +49,23 @@ $sb-text-color:$backgroundcolour; //variable from _sassybuttons.scss partials
 $sb-padding: 0.42rem 1rem;
 @include sassy-button("flat", 10px, 1.2rem, $icon_back_colour);
 vertical-align: super;
+  hover { color:$h_social_colour;
+  background-color: $icon_back_colour;
+  }
 }
-
+/*
 .btn:hover{
   color:$h_social_colour;
   background-color: $icon_back_colour;
 }
+*/
 .btn:active{
   background-color: darken($icon_back_colour,5%);
 }
 
-
+#mini-panel-usermenu {
+  display: none;
+}
 .user-login-form div {
   display: inline;
 }

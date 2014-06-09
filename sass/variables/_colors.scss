@@ -2,6 +2,33 @@
 //Standard for hovers verse other colour etc.
 //you really need to make this waaaay better
 
+// June 9
+//Let continue with more general descriptive variable names:
+
+$headerbackground:  #1A80D9;
+$a_hover_colour:#FFFF0D;
+$h_block_colour: grey;
+$h_social_colour:#00267F; //old all hover colour
+$icon_back_colour: #FFFFFF;
+
+
+
+$button_h_colour:#00267F;
+$buttoncolour:#008000;
+$buttonbak:#FFFFFF;
+
+@mixin hoverbutton {
+	color: $buttoncolour;
+	:hover {
+	  color:$button_h_colour;
+	  background-color: $buttonbak;
+	  }  
+	:active {background-color: darken($buttonbak,5%);}
+}
+
+
+
+
 // - ohm theme colours:
 $pale-blue  : #d9e9ef;
 $light-blue : #52b1ea;
@@ -42,3 +69,6 @@ $a_hover_colour:#FFFFFF;
 $posteven: #9d9d9d;
 
 $backgroundcolour: #008000;
+
+//active!!! insert the the the below code.
+//darken($icon_back_colour,5%)

@@ -69,7 +69,7 @@ Backtrace:
 /Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:109:in `block in _run_first_task_found'
 /Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:107:in `each'
 /Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:107:in `_run_first_task_found'
-/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:47:in `block in run_on_changes'
+/Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:48:in `block in run_on_changes'
 /Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:140:in `block (3 levels) in _scoped_plugins'
 /Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:138:in `each'
 /Users/tandoori/.rvm/gems/ruby-1.9.3-p545@omega.omega_bc/gems/guard-2.5.1/lib/guard/runner.rb:138:in `block (2 levels) in _scoped_plugins'

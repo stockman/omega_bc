@@ -13,9 +13,12 @@ $hidefollow: max-width 1200px;
 $logo1st: max-width 500px;
 
 // Colours:
-$gren: #008000;
 $four: 45px;
 //test
+
+.dl-menuwrapper {
+  @include hoverbutton;
+}
 
 
 /*Menu hackign may 20th
