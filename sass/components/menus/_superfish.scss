@@ -1,0 +1,44 @@
+// superfish and follow align bottom
+.superfisher, .follow {vertical-align: bottom;}
+
+.sf-menu {
+float : left;
+///******RT june 5th this is breaking social menus!
+position : relative;
+left : 50%;
+text-decoration: none;
+}
+.sf-menu a {text-decoration: none}
+.sf-menu ul li {
+left : 0%;
+background-color: $h_colour;
+top: -.2em;
+
+}
+.sf-menu ul li a{
+ color: $light-grey;
+}
+.sf-menu ul li a:hover{
+color: $a_hover_colour
+}
+
+//spacing between sf words
+.sf-menu li {
+left : -50%;
+padding: .2rem;
+}
+
+.sf-menu li:hover {
+//  background-color:$h_colour;
+
+}
+.sf-menu li:hover a {color: $a_hover_colour;}
+
+
+// menu items
+#superfish-1 {
+ // display: block;
+  margin-right: 2em;
+  font-size: 20px;
+  //asd
+}

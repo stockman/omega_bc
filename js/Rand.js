@@ -12,7 +12,7 @@
 
 */
             // toggles both user menus by usermenu class
-            $(".btn").click(function() {
+            $(".button").click(function() {
                 $("#mini-panel-usermenu").toggle();
             });
 

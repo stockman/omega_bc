@@ -1,0 +1,46 @@
+  // hide the header logo
+.l-branding > .site-logo > img {
+  display: none;
+}
+// underline menu items on hover
+.sf-menu li:hover {
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.top {
+  background-color: $gren;
+//  height: $four;
+}
+
+//Follow menu
+$menucol : #008000;
+// follow breakpoint
+
+ //wrapper
+.desktopview li {
+	display: inline-block;
+}
+
+// p, i, menus
+
+	@media screen and (max-width: 1920px) {
+		#pmenu, #imenu {
+			//width:1.4em;
+			display: block;
+			background:#ddd;
+			//font-size:1.75em;
+			text-align: center;
+			background-color: $menucol;
+			color: #FFFFFF;
+			width: 45px;
+			height: 45px;
+			display: table-cell;
+			font-size: 2em;
+			vertical-align: bottom;
+		}
+		.profiler.js,.abouter.js {
+			display: none;
+		}
+	}
